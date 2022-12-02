@@ -1,5 +1,5 @@
 ﻿//https://adventofcode.com/2022/day/2
-var input = await File.ReadAllLinesAsync("input.txt");
+var input = await File.ReadAllLinesAsync("../input.txt");
 
 //part1
 var rounds = input

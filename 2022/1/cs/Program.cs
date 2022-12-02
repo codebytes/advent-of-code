@@ -1,5 +1,5 @@
 ﻿//https://adventofcode.com/2022/day/1
-var input = await File.ReadAllLinesAsync("input.txt");
+var input = await File.ReadAllLinesAsync("../input.txt");
 
 var groups = input
     .Split((prev,next) => next == "")
