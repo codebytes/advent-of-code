@@ -18,7 +18,7 @@ foreach (var line in input)
 			var path = match.Groups["path"].Value;
 			if(path == "..")
 			{
-				if(currentNode.ParentNode != null)
+				if(currentNode?.ParentNode != null)
 				{
 					currentNode = currentNode.ParentNode;
 				}
@@ -29,11 +29,11 @@ foreach (var line in input)
 		}
 		else 
 		{
-			var node = currentNode.ChildNodes.FirstOrDefault(x=>x.Name == path);
+			var node = currentNode?.ChildNodes.FirstOrDefault(x=>x.Name == path);
 			if(node is null)
 			{
 				node = new Node{Name = path, NodeType = NodeType.Directory, ParentNode = currentNode};
-				currentNode.ChildNodes.Add(node);
+				currentNode?.ChildNodes.Add(node);
 				nodes.Add(node);
 			}
 			else
@@ -46,11 +46,11 @@ foreach (var line in input)
 	{
 		var match = dir.Match(line);
 		var dirName = match.Groups["dir"].Value;
-		var node = currentNode.ChildNodes.FirstOrDefault(x => x.Name == dirName);
+		var node = currentNode?.ChildNodes.FirstOrDefault(x => x.Name == dirName);
 		if (node is null)
 		{
 			node = new Node { Name = dirName, NodeType = NodeType.Directory, ParentNode = currentNode };
-			currentNode.ChildNodes.Add(node);
+			currentNode?.ChildNodes.Add(node);
 			nodes.Add(node);
 		}
 	}
@@ -59,11 +59,11 @@ foreach (var line in input)
 		var match = file.Match(line);
 		var filename = match.Groups["filename"].Value;
 		var size = int.Parse(match.Groups["size"].Value);
-		var node = currentNode.ChildNodes.FirstOrDefault(x => x.Name == filename);
+		var node = currentNode?.ChildNodes.FirstOrDefault(x => x.Name == filename);
 		if (node is null)
 		{
 			node = new Node { Name = filename, NodeType = NodeType.File, Size = size, ParentNode = currentNode };
-			currentNode.ChildNodes.Add(node);
+			currentNode?.ChildNodes.Add(node);
 			nodes.Add(node);
 		}
 	}
@@ -98,15 +98,16 @@ public record Node
 {
 	public NodeType NodeType { get; set; }
 	public int Size { get; set; }
-	public Node ParentNode { get; set; } = null;
+	public Node? ParentNode { get; set; }
 	public IList<Node> ChildNodes { get; } = new List<Node>();
-	public string Name { get; set; }
+	public string Name { get; set; } = "";
 	public int GetTotalSize()
 	{
 		return this.NodeType switch
 		{
 			NodeType.File => this.Size,
-			NodeType.Directory => this.ChildNodes.Sum(x=>x.GetTotalSize())
+			NodeType.Directory => this.ChildNodes.Sum(x=>x.GetTotalSize()),
+			_ => 0
 		};
 	}
 }
