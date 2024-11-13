@@ -1,4 +1,4 @@
-﻿//https://adventofcode.com/2015/day/7
+﻿//https://adventofcode.com/2015/day/9
 using System.Text.RegularExpressions;
 
 var input = await File.ReadAllLinesAsync("../input.txt");
