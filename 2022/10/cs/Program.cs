@@ -1,5 +1,4 @@
-﻿using System.Text.RegularExpressions;
-using System.Text;
+﻿using System.Text;
 
 //https://adventofcode.com/2022/day/10
 var input = await File.ReadAllLinesAsync("../input.txt");

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-//https://adventofcode.com/2015/day/3
+﻿//https://adventofcode.com/2015/day/3
 var input = await File.ReadAllBytesAsync("../input.txt");
 
 var part1Visits = new List<Coords>();

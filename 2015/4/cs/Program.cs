@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Security.Cryptography;
-
-//https://adventofcode.com/2015/day/4
+﻿//https://adventofcode.com/2015/day/4
 var input = await File.ReadAllTextAsync("../input.txt");
 
 var md5 = System.Security.Cryptography.MD5.Create();

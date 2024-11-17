@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-
-//https://adventofcode.com/2015/day/5
+﻿//https://adventofcode.com/2015/day/5
 var input = await File.ReadAllLinesAsync("../input.txt");
 var inputCount = input.Count();
 
