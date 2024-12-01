@@ -21,8 +21,6 @@ foreach (var line in input)
 list1 = list1.OrderBy(x => x).ToList();
 list2 = list2.OrderBy(x => x).ToList();
 
-
-
 var result = list1.Zip(list2, (a, b) => Math.Abs(a - b)).Sum();
 Console.WriteLine($"Part 1: {result}");
 
