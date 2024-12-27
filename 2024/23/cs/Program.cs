@@ -1,9 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-
 //https://adventofcode.com/2024/day/23
 //var input = await File.ReadAllTextAsync("../sample.txt");
 var input = await File.ReadAllTextAsync("../input.txt");

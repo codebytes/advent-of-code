@@ -28,19 +28,19 @@ Robot MoveRobot(Robot robot, int maxY, int maxX)
     return robot with { Y = nextY, X = nextX };
 }
 
-void PrintGrid(Robot[] robots, int maxY, int maxX)
-{
-    for (int y = 0; y < maxY; y++)
-    {
-        var line = "";
-        for (int x = 0; x < maxX; x++)
-        {
-            var robotCounts = robots.Count(robot => robot.Y == y && robot.X == x);
-            line += robotCounts > 0 ? robotCounts.ToString() : ".";
-        }
-        Console.WriteLine(line);
-    }
-}
+// void PrintGrid(Robot[] robots, int maxY, int maxX)
+// {
+//     for (int y = 0; y < maxY; y++)
+//     {
+//         var line = "";
+//         for (int x = 0; x < maxX; x++)
+//         {
+//             var robotCounts = robots.Count(robot => robot.Y == y && robot.X == x);
+//             line += robotCounts > 0 ? robotCounts.ToString() : ".";
+//         }
+//         Console.WriteLine(line);
+//     }
+// }
 
 int CalculateSafetyCount(Robot[] robots, int maxY, int maxX)
 {
