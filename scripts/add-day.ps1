@@ -1,7 +1,7 @@
 param (
     [Parameter(Mandatory=$true)]
     [string]$day,
-    [string]$year = "2024"
+    [string]$year = "2025"
 )
 
 $dayPadded = "{0:D2}" -f [int]$day

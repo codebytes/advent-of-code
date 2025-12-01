@@ -7,7 +7,7 @@ if [ -z "$1" ]; then
 fi
 
 day=$1
-year=${2:-2024}
+year=${2:-2025}
 
 # Format the day to be two digits
 dayPadded=$(printf "%02d" $day)
