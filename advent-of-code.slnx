@@ -1,0 +1,75 @@
+<Solution>
+  <Folder Name="/2015/" >
+    <Project Path="2015/01/cs/NotQuiteLisp.csproj" />
+    <Project Path="2015/02/cs/IWasToldThereWouldBeNoMath.csproj" />
+    <Project Path="2015/03/cs/PerfectlySpericalHousesInAVacuum.csproj" />
+    <Project Path="2015/04/cs/TheIdealStockingStuffer.csproj" />
+    <Project Path="2015/05/cs/DoesntHeHaveIntern-ElvesForThis.csproj" />
+    <Project Path="2015/06/cs/ProbablyAFireHazard.csproj" />
+    <Project Path="2015/07/cs/SomeAssemblyRequired.csproj" />
+    <Project Path="2015/08/cs/Matchsticks.csproj" />
+    <Project Path="2015/09/cs/AllInASingleNight.csproj" />
+    <Project Path="2015/10/cs/ElvesLookElvesSay.csproj" />
+    <Project Path="2015/11/cs/CorporatePolicy.csproj" />
+    <Project Path="2015/12/cs/JSAbacusFramework.io.csproj" />
+    <Project Path="2015/13/cs/Knights of the Dinner Table.csproj" />
+    <Project Path="2015/14/cs/Reindeer Olympics.csproj" />
+    <Project Path="2015/15/cs/Science for Hungry People.csproj" />
+    <Project Path="2015/16/cs/Aunt Sue.csproj" />
+    <Project Path="2015/17/cs/No Such Thing as Too Much.csproj" />
+    <Project Path="2015/18/cs/LikeaGIFForYourYard.csproj" />
+    <Project Path="2015/19/cs/MedicineforRudolph.csproj" />
+    <Project Path="2015/20/cs/InfiniteElvesandInfiniteHouses.csproj" />
+  </Folder>
+  <Folder Name="/2022/" >
+    <Project Path="2022/01/cs/calorie-counting.csproj" />
+    <Project Path="2022/02/cs/RockPaperScissors.csproj" />
+    <Project Path="2022/03/cs/RucksackReorganization.csproj" />
+    <Project Path="2022/04/cs/CampCleanup.csproj" />
+    <Project Path="2022/05/cs/SupplyStacks.csproj" />
+    <Project Path="2022/06/cs/TuningTrouble.csproj" />
+    <Project Path="2022/07/cs/NoSpaceLeftOnDevice.csproj" />
+    <Project Path="2022/08/cs/TreetopTreeHouse.csproj" />
+    <Project Path="2022/09/cs/RopeBridge.csproj" />
+    <Project Path="2022/10/cs/CathodeRayTube.csproj" />
+    <Project Path="2022/11/cs/MonkeyInTheMiddle.csproj" />
+    <Project Path="2022/12/cs/HillClimbingAlgorithm.csproj" />
+    <Project Path="2022/13/cs/DistressSignal.csproj" />
+    <Project Path="2022/14/cs/RegolithReservoir.csproj" />
+  </Folder>
+  <Folder Name="/2023/" >
+    <Project Path="2023/01/cs/Trebuchet.csproj" />
+    <Project Path="2023/02/cs/Cube Conundrum.csproj" />
+  </Folder>
+  <Folder Name="/2024/" >
+    <Project Path="2024/01/cs/Historian Hysteria.csproj" />
+    <Project Path="2024/02/cs/Red-Nosed Reports.csproj" />
+    <Project Path="2024/03/cs/Mull It Over.csproj" />
+    <Project Path="2024/04/cs/Ceres Search.csproj" />
+    <Project Path="2024/05/cs/Print Queue.csproj" />
+    <Project Path="2024/06/cs/Guard Gallivant.csproj" />
+    <Project Path="2024/07/cs/Bridge Repair.csproj" />
+    <Project Path="2024/08/cs/Resonant Collinearity.csproj" />
+    <Project Path="2024/09/cs/Disk Fragmenter.csproj" />
+    <Project Path="2024/10/cs/Hoof It.csproj" />
+    <Project Path="2024/11/cs/Plutonian Pebbles.csproj" />
+    <Project Path="2024/12/cs/Garden Groups.csproj" />
+    <Project Path="2024/13/cs/Claw Contraption.csproj" />
+    <Project Path="2024/14/cs/Restroom Redoubt.csproj" />
+    <Project Path="2024/15/cs/Warehouse Woes.csproj" />
+    <Project Path="2024/16/cs/Reindeer Maze.csproj" />
+    <Project Path="2024/17/cs/Chronospatial Computer.csproj" />
+    <Project Path="2024/18/cs/RAM Run.csproj" />
+    <Project Path="2024/19/cs/Linen Layout.csproj" />
+    <Project Path="2024/20/cs/Race Condition.csproj" />
+    <Project Path="2024/21/cs/Keypad Conundrum.csproj" />
+    <Project Path="2024/22/cs/Monkey Market.csproj" />
+    <Project Path="2024/23/cs/LAN Party.csproj" />
+    <Project Path="2024/24/cs/Crossed Wired.csproj" />
+    <Project Path="2024/25/cs/Code Chronicle.csproj" />
+  </Folder>
+  <Folder Name="/2025/">
+    <Project Path="2025/01/cs/SecretEntrance.csproj" />
+    <Project Path="2025/02/cs/GiftShop.csproj" />
+  </Folder>
+</Solution>
